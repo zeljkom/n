@@ -63,15 +63,22 @@ namespace ZMDZ2NRKA {
         /// <see cref="Frame.Navigate(Type, Object)"/> when this page was initially requested and
         /// a dictionary of state preserved by this page during an earlier
         /// session.  The state will be null the first time a page is visited.</param>
-        private void NavigationHelper_LoadState(object sender, LoadStateEventArgs e) {
-            ApplicationDataContainer sett = Windows.Storage.ApplicationData.Current.RoamingSettings;
-            if (sett.Values.ContainsKey("txt1"))
-                txt1.Text = sett.Values["txt1"].ToString();
-            if (sett.Values.ContainsKey("txt2"))
-                txt2.Text = sett.Values["txt2"].ToString();
-            if (sett.Values.ContainsKey("txtResult"))
-                txtResult.Text = sett.Values["txtResult"].ToString();
-            
+        private async void NavigationHelper_LoadState(object sender, LoadStateEventArgs e) {
+            if (e.PageState != null) {                
+                if (e.PageState.ContainsKey("txt1"))
+                    txt1.Text = e.PageState["txt1"].ToString();
+
+                if (e.PageState.ContainsKey("txt2"))
+                    txt2.Text = e.PageState["txt2"].ToString();
+                
+                if (e.PageState.ContainsKey("txtResult"))
+                    txtResult.Text = e.PageState["txtResult"].ToString();
+            }
+            var sett = Windows.Storage.ApplicationData.Current.RoamingSettings;
+            if (sett.Values.ContainsKey("exitTime")) {
+                MessageDialog dialog = new MessageDialog(String.Format("Datum poslj. izlaska: {0}", sett.Values["exitTime"].ToString()));
+                await dialog.ShowAsync();
+            }
         }
 
         /// <summary>
@@ -83,7 +90,11 @@ namespace ZMDZ2NRKA {
         /// <param name="e">Event data that provides an empty dictionary to be populated with
         /// serializable state.</param>
         private void NavigationHelper_SaveState(object sender, SaveStateEventArgs e) {
-            //Niš ne spremamo ovdje jer imamo samo jedan page
+            if (e.PageState != null) {
+                e.PageState["txt1"] = txt1.Text;
+                e.PageState["txt2"] = txt2.Text;
+                e.PageState["txtResult"] = txtResult.Text;
+            }
         }
 
         private async void btnAdd_Click(object sender, RoutedEventArgs e) {
@@ -143,11 +154,7 @@ namespace ZMDZ2NRKA {
         protected async override void OnNavigatedTo(NavigationEventArgs e) {
             this.navigationHelper.OnNavigatedTo(e);
 
-            var sett = Windows.Storage.ApplicationData.Current.RoamingSettings;
-            if (sett.Values.ContainsKey("exitTime")) {                
-                MessageDialog dialog = new MessageDialog(String.Format("Datum poslj. izlaska: {0}", sett.Values["exitTime"].ToString()));
-                await dialog.ShowAsync();
-            }
+         
 
 
             var taskRegistration = BackgroundTaskRegistration.AllTasks.Values.FirstOrDefault();            

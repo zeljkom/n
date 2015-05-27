@@ -7,6 +7,7 @@ using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -36,6 +37,15 @@ namespace ZMDZ2NRKA
         {
             this.InitializeComponent();
             this.Suspending += this.OnSuspending;
+            this.Resuming += App_Resuming;
+        }
+
+        async void  App_Resuming(object sender, object e) {
+            var sett = Windows.Storage.ApplicationData.Current.RoamingSettings;
+            if (sett.Values.ContainsKey("exitTime")) {
+                MessageDialog dialog = new MessageDialog(String.Format("Datum poslj. izlaska: {0}", sett.Values["exitTime"].ToString()));
+                await dialog.ShowAsync();
+            }
         }
 
         /// <summary>
@@ -70,6 +80,7 @@ namespace ZMDZ2NRKA
                 {
                     // TODO: Load state from previously suspended application
                     await SuspensionManager.RestoreAsync();
+
                 }
 
                 // Place the frame in the current Window
