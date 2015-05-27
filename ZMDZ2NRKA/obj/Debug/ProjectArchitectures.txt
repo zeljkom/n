@@ -1,0 +1,2 @@
+c:\projects\temp\ZMDZ2NRKA\MyBackgroundService\MyBackgroundService.csproj;neutral
+c:\projects\temp\ZMDZ2NRKA\ZMDZ2NRKA\ZMDZ2NRKA.csproj;neutral
