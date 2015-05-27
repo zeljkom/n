@@ -23,8 +23,8 @@
 
         <!-- Title Panel -->
         <StackPanel Grid.Row="0" Margin="19,0,0,0">
-            <TextBlock Text="MY APPLICATION" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
-            <TextBlock Text="page title" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+            <TextBlock Text="ŽELJKO MIKIĆ DZ 02" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="Zbrajalica" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
         </StackPanel>
 
         <!--TODO: Content should be placed within the following grid-->
@@ -32,13 +32,13 @@
             <StackPanel Orientation="Horizontal" >
                 <TextBox x:Name="txt1" TextWrapping="NoWrap" Width="56" InputScope="Number" Margin="2,2,2,2" TextChanged="txt_TextChanged"/>
                 <TextBox x:Name="txt2" TextWrapping="NoWrap" Width="56" InputScope="Number"  Margin="2,2,2,2" TextChanged="txt_TextChanged"/>
-                <Button Name="btnAdd" Click="btnAdd_Click" VerticalAlignment="Top">Add</Button>          
+                <Button x:Name="btnAdd" Click="btnAdd_Click" VerticalAlignment="Top" Content="Zbroji"/>
             </StackPanel>
             
-            <Border Background="White" Width="50" Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,50,0,0" >
-                <TextBlock Name="txtResult" Foreground="#FFF76464" ></TextBlock>                
+            <Border Background="White" Width="200"  Height="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,50,0,0" >
+                <TextBlock Name="txtResult" Foreground="#FFF76464" Style="{StaticResource SubheaderTextBlockStyle}" ></TextBlock>                
             </Border>
-            <Button Name="btnUnregister" Click="btnUnregister_Click">Unregister Back Task</Button>
+            <Button x:Name="btnUnregister" Click="btnUnregister_Click" Content="Odregistriraj &quot;Background Task&quot;"/>
 
         </Grid>
     </Grid>

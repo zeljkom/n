@@ -1,0 +1,72 @@
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\bin\Debug\App.xbf
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\bin\Debug\MainPage.xbf
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\bin\Debug\FilipKaicDZ2NRKA.xr.xml
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\bin\Debug\FilipKaicDZ2NRKA.exe
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\bin\Debug\FilipKaicDZ2NRKA.pdb
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\bin\Debug\resources.pri
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\bin\Debug\AppxManifest.xml
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\bin\Debug\FilipKaicDZ2NRKA.build.appxrecipe
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\App.g.i.cs
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\App.g.cs
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\MainPage.g.i.cs
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\MainPage.g.cs
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\XamlTypeInfo.g.cs
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\App.xaml
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\App.xbf
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\XamlSaveStateFile.xml
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\MainPage.xaml
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\MainPage.xbf
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\FilipKaicDZ2NRKA.exe
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\FilipKaicDZ2NRKA.pdb
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\priconfig.xml
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\priconfig.xml.intermediate
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\layout.resfiles
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\layout.resfiles.intermediate
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\resources.resfiles
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\resources.resfiles.intermediate
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\pri.resfiles
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\pri.resfiles.intermediate
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\qualifiers.txt
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\qualifiers.txt.intermediate
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\ProjectArchitectures.txt
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\bin\Debug\WindowsRuntimeComponentDZ.winmd
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\bin\Debug\WindowsRuntimeComponentDZ.pdb
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\bin\Debug\WindowsRuntimeComponentDZ.pri
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA\obj\Debug\FilipKaicDZ2NRKA.csprojResolveAssemblyReference.cache
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\bin\Debug\App.xbf
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\bin\Debug\MainPage.xbf
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\bin\Debug\FilipKaicDZ2NRKA.xr.xml
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\bin\Debug\FilipKaicDZ2NRKA.exe
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\bin\Debug\FilipKaicDZ2NRKA.pdb
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\bin\Debug\resources.pri
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\bin\Debug\AppxManifest.xml
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\bin\Debug\FilipKaicDZ2NRKA.build.appxrecipe
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\bin\Debug\WindowsRuntimeComponentDZ.winmd
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\bin\Debug\WindowsRuntimeComponentDZ.pdb
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\bin\Debug\WindowsRuntimeComponentDZ.pri
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\FilipKaicDZ2NRKA.csprojResolveAssemblyReference.cache
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\App.g.i.cs
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\App.g.cs
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\MainPage.g.i.cs
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\MainPage.g.cs
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\XamlTypeInfo.g.cs
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\App.xaml
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\MainPage.xaml
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\App.xbf
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\MainPage.xbf
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\XamlSaveStateFile.xml
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\FilipKaicDZ2NRKA.exe
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\FilipKaicDZ2NRKA.pdb
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\priconfig.xml
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\priconfig.xml.intermediate
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\layout.resfiles
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\layout.resfiles.intermediate
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\resources.resfiles
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\resources.resfiles.intermediate
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\pri.resfiles
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\pri.resfiles.intermediate
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\qualifiers.txt
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\qualifiers.txt.intermediate
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\obj\Debug\ProjectArchitectures.txt

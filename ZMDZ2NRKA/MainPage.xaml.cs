@@ -69,6 +69,8 @@ namespace ZMDZ2NRKA {
                 txt1.Text = sett.Values["txt1"].ToString();
             if (sett.Values.ContainsKey("txt2"))
                 txt2.Text = sett.Values["txt2"].ToString();
+            if (sett.Values.ContainsKey("txtResult"))
+                txtResult.Text = sett.Values["txtResult"].ToString();
             
         }
 
@@ -81,7 +83,7 @@ namespace ZMDZ2NRKA {
         /// <param name="e">Event data that provides an empty dictionary to be populated with
         /// serializable state.</param>
         private void NavigationHelper_SaveState(object sender, SaveStateEventArgs e) {
-            int i = 0;
+            //Niš ne spremamo ovdje jer imamo samo jedan page
         }
 
         private async void btnAdd_Click(object sender, RoutedEventArgs e) {
@@ -94,9 +96,11 @@ namespace ZMDZ2NRKA {
             if (!Decimal.TryParse(txt1.Text, out num1)) {
                 MessageDialog dlg = new MessageDialog("Prvi broj nije ispravan");
                 await dlg.ShowAsync();
+                return;
             } else if (!Decimal.TryParse(txt2.Text, out num2)) {
                 MessageDialog dlg = new MessageDialog("Drugi broj nije ispravan");
                 await dlg.ShowAsync();
+                return;
             }
 
             try {
@@ -109,7 +113,13 @@ namespace ZMDZ2NRKA {
                 MessageDialog dlg = new MessageDialog("Nije moguće zbrojiti");
                 await dlg.ShowAsync();
             } else {
-                txtResult.Text = res.ToString();
+                
+                string resultText = String.Format("{0}+{1}={2}",txt1.Text, txt2.Text, res.ToString());
+                txtResult.Text = resultText;
+                Windows.Storage.ApplicationData.Current.RoamingSettings.Values["txtResult"] = resultText;
+                txt1.Text = "";
+                txt2.Text = "";              
+               
             }     
         }
         
@@ -130,8 +140,14 @@ namespace ZMDZ2NRKA {
         /// </summary>
         /// <param name="e">Provides data for navigation methods and event
         /// handlers that cannot cancel the navigation request.</param>
-        protected override void OnNavigatedTo(NavigationEventArgs e) {
+        protected async override void OnNavigatedTo(NavigationEventArgs e) {
             this.navigationHelper.OnNavigatedTo(e);
+
+            var sett = Windows.Storage.ApplicationData.Current.RoamingSettings;
+            if (sett.Values.ContainsKey("exitTime")) {                
+                MessageDialog dialog = new MessageDialog(String.Format("Datum poslj. izlaska: {0}", sett.Values["exitTime"].ToString()));
+                await dialog.ShowAsync();
+            }
 
 
             var taskRegistration = BackgroundTaskRegistration.AllTasks.Values.FirstOrDefault();            
@@ -183,9 +199,10 @@ namespace ZMDZ2NRKA {
                 taskRegistration.Completed -= registration_Completed;
             }
 
-            
-
         }
+
+
+        
         
     }
 }

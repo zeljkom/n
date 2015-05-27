@@ -9,17 +9,17 @@
 
 
 
-namespace ZMDZ2NRKA
+namespace FilipKaicDZ2NRKA
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        private global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlTypeInfoProvider _provider;
 
         public global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(global::System.Type type)
         {
             if(_provider == null)
             {
-                _provider = new global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByType(type);
         }
@@ -28,7 +28,7 @@ namespace ZMDZ2NRKA
         {
             if(_provider == null)
             {
-                _provider = new global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByName(fullName);
         }
@@ -40,7 +40,7 @@ namespace ZMDZ2NRKA
     }
 }
 
-namespace ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo
+namespace FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo
 {
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", "4.0.0.0")]    
@@ -125,22 +125,22 @@ namespace ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo
         private void InitTypeTables()
         {
             _typeNameTable = new string[8];
-            _typeNameTable[0] = "ZMDZ2NRKA.MainPage";
+            _typeNameTable[0] = "FilipKaicDZ2NRKA.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[3] = "ZMDZ2NRKA.Common.NavigationHelper";
+            _typeNameTable[3] = "FilipKaicDZ2NRKA.Common.NavigationHelper";
             _typeNameTable[4] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[5] = "ZMDZ2NRKA.Common.ObservableDictionary";
+            _typeNameTable[5] = "FilipKaicDZ2NRKA.Common.ObservableDictionary";
             _typeNameTable[6] = "Object";
             _typeNameTable[7] = "String";
 
             _typeTable = new global::System.Type[8];
-            _typeTable[0] = typeof(global::ZMDZ2NRKA.MainPage);
+            _typeTable[0] = typeof(global::FilipKaicDZ2NRKA.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[3] = typeof(global::ZMDZ2NRKA.Common.NavigationHelper);
+            _typeTable[3] = typeof(global::FilipKaicDZ2NRKA.Common.NavigationHelper);
             _typeTable[4] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[5] = typeof(global::ZMDZ2NRKA.Common.ObservableDictionary);
+            _typeTable[5] = typeof(global::FilipKaicDZ2NRKA.Common.ObservableDictionary);
             _typeTable[6] = typeof(global::System.Object);
             _typeTable[7] = typeof(global::System.String);
         }
@@ -177,8 +177,8 @@ namespace ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::ZMDZ2NRKA.MainPage(); }
-        private object Activate_5_ObservableDictionary() { return new global::ZMDZ2NRKA.Common.ObservableDictionary(); }
+        private object Activate_0_MainPage() { return new global::FilipKaicDZ2NRKA.MainPage(); }
+        private object Activate_5_ObservableDictionary() { return new global::FilipKaicDZ2NRKA.Common.ObservableDictionary(); }
         private void MapAdd_5_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -189,16 +189,16 @@ namespace ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlUserType userType;
+            global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
             switch (typeIndex)
             {
 
-            case 0:   //  ZMDZ2NRKA.MainPage
-                userType = new global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+            case 0:   //  FilipKaicDZ2NRKA.MainPage
+                userType = new global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_0_MainPage;
                 userType.AddMemberName("NavigationHelper");
                 userType.AddMemberName("DefaultViewModel");
@@ -207,26 +207,26 @@ namespace ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo
                 break;
 
             case 1:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 3:   //  ZMDZ2NRKA.Common.NavigationHelper
-                userType = new global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
+            case 3:   //  FilipKaicDZ2NRKA.Common.NavigationHelper
+                userType = new global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
             case 4:   //  Windows.UI.Xaml.DependencyObject
-                xamlType = new global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 5:   //  ZMDZ2NRKA.Common.ObservableDictionary
-                userType = new global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+            case 5:   //  FilipKaicDZ2NRKA.Common.ObservableDictionary
+                userType = new global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.DictionaryAdd = MapAdd_5_ObservableDictionary;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
@@ -234,11 +234,11 @@ namespace ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo
                 break;
 
             case 6:   //  Object
-                xamlType = new global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 7:   //  String
-                xamlType = new global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
@@ -247,31 +247,31 @@ namespace ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo
 
         private object get_0_MainPage_NavigationHelper(object instance)
         {
-            var that = (global::ZMDZ2NRKA.MainPage)instance;
+            var that = (global::FilipKaicDZ2NRKA.MainPage)instance;
             return that.NavigationHelper;
         }
         private object get_1_MainPage_DefaultViewModel(object instance)
         {
-            var that = (global::ZMDZ2NRKA.MainPage)instance;
+            var that = (global::FilipKaicDZ2NRKA.MainPage)instance;
             return that.DefaultViewModel;
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlMember xamlMember = null;
-            global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlUserType userType;
+            global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlMember xamlMember = null;
+            global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlUserType userType;
 
             switch (longMemberName)
             {
-            case "ZMDZ2NRKA.MainPage.NavigationHelper":
-                userType = (global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ZMDZ2NRKA.MainPage");
-                xamlMember = new global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlMember(this, "NavigationHelper", "ZMDZ2NRKA.Common.NavigationHelper");
+            case "FilipKaicDZ2NRKA.MainPage.NavigationHelper":
+                userType = (global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FilipKaicDZ2NRKA.MainPage");
+                xamlMember = new global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlMember(this, "NavigationHelper", "FilipKaicDZ2NRKA.Common.NavigationHelper");
                 xamlMember.Getter = get_0_MainPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "ZMDZ2NRKA.MainPage.DefaultViewModel":
-                userType = (global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ZMDZ2NRKA.MainPage");
-                xamlMember = new global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "ZMDZ2NRKA.Common.ObservableDictionary");
+            case "FilipKaicDZ2NRKA.MainPage.DefaultViewModel":
+                userType = (global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("FilipKaicDZ2NRKA.MainPage");
+                xamlMember = new global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "FilipKaicDZ2NRKA.Common.ObservableDictionary");
                 xamlMember.Getter = get_1_MainPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
@@ -331,9 +331,9 @@ namespace ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", "4.0.0.0")]    
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class XamlUserType : global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlSystemBaseType
+    internal class XamlUserType : global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlSystemBaseType
     {
-        global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Windows.UI.Xaml.Markup.IXamlType _baseType;
         bool _isArray;
         bool _isMarkupExtension;
@@ -347,7 +347,7 @@ namespace ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
+        public XamlUserType(global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
             _provider = provider;
@@ -540,7 +540,7 @@ namespace ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Windows.UI.Xaml.Markup.IXamlMember
     {
-        global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -549,7 +549,7 @@ namespace ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::ZMDZ2NRKA.ZMDZ2NRKA_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::FilipKaicDZ2NRKA.FilipKaicDZ2NRKA_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;

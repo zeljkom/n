@@ -1,0 +1,2 @@
+C:\Projects\NRKA_KAIC\FilipKaicDZ2NRKA\FilipKaicDZ2NRKA.csproj;neutral
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\WindowsRuntimeComponentDZ.csproj;neutral

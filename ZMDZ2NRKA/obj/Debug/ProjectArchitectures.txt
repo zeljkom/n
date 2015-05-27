@@ -1,2 +1,2 @@
-c:\projects\temp\ZMDZ2NRKA\MyBackgroundService\MyBackgroundService.csproj;neutral
-c:\projects\temp\ZMDZ2NRKA\ZMDZ2NRKA\ZMDZ2NRKA.csproj;neutral
+C:\Projects\Temp\ZMDZ2NRKA\n\MyBackgroundService\MyBackgroundService.csproj;neutral
+C:\Projects\Temp\ZMDZ2NRKA\n\ZMDZ2NRKA\ZMDZ2NRKA.csproj;neutral

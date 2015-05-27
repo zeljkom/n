@@ -127,9 +127,11 @@ namespace ZMDZ2NRKA
         {
             var deferral = e.SuspendingOperation.GetDeferral();
             await SuspensionManager.SaveAsync();
-
+            Windows.Storage.ApplicationData.Current.RoamingSettings.Values["exitTime"] = DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss");
             // TODO: Save application state and stop any background activity
             deferral.Complete();
+
+            
         }
     }
 }

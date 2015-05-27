@@ -1,0 +1,36 @@
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\bin\Debug\WindowsRuntimeComponentDZ.winmd
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\bin\Debug\WindowsRuntimeComponentDZ.pdb
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\bin\Debug\WindowsRuntimeComponentDZ.pri
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\obj\Debug\WindowsRuntimeComponentDZ.winmd
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\obj\Debug\WindowsRuntimeComponentDZ.pdb
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\obj\Debug\WindowsRuntimeComponentDZ.winmdobj
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\obj\Debug\WindowsRuntimeComponentDZ.compile.pdb
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\obj\Debug\priconfig.xml
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\obj\Debug\priconfig.xml.intermediate
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\obj\Debug\layout.resfiles
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\obj\Debug\layout.resfiles.intermediate
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\obj\Debug\resources.resfiles
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\obj\Debug\resources.resfiles.intermediate
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\obj\Debug\pri.resfiles
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\obj\Debug\pri.resfiles.intermediate
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\obj\Debug\qualifiers.txt
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Filip\documents\visual studio 2013\Projects\FilipKaicDZ2NRKA\WindowsRuntimeComponentDZ\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\bin\Debug\WindowsRuntimeComponentDZ.winmd
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\bin\Debug\WindowsRuntimeComponentDZ.pdb
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\bin\Debug\WindowsRuntimeComponentDZ.pri
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\obj\Debug\WindowsRuntimeComponentDZ.winmd
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\obj\Debug\WindowsRuntimeComponentDZ.pdb
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\obj\Debug\WindowsRuntimeComponentDZ.winmdobj
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\obj\Debug\WindowsRuntimeComponentDZ.compile.pdb
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\obj\Debug\priconfig.xml
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\obj\Debug\priconfig.xml.intermediate
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\obj\Debug\layout.resfiles
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\obj\Debug\layout.resfiles.intermediate
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\obj\Debug\resources.resfiles
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\obj\Debug\resources.resfiles.intermediate
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\obj\Debug\pri.resfiles
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\obj\Debug\pri.resfiles.intermediate
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\obj\Debug\qualifiers.txt
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\obj\Debug\qualifiers.txt.intermediate
+C:\Projects\NRKA_KAIC\WindowsRuntimeComponentDZ\obj\Debug\MultipleQualifiersPerDimensionFound.txt
